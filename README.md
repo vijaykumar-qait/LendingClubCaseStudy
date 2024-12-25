@@ -8,21 +8,22 @@
 * [Acknowledgements](#acknowledgements)
 
 ## General Information
-- This project entails a comprehensive Exploratory Data Analysis (EDA) of loan data from Lending Club.
-- **Context**: The aim is to analyze patterns and variables affecting loan defaults to assist Lending Club in minimizing credit losses and making educated lending choices.
-- **Business Problem**: Lending Club encounters two significant risks:
-  1. Business loss resulting from the rejection of loans to qualified applicants.
-  2. Financial loss incurred when loans are sanctioned for candidates prone to default.
-- **Dataset**: Historical loan data from 2007 to 2011, encompassing attributes such as loan amount, interest rate, term, grade, employment duration, and outcome (e.g., fully paid, charged-off).
+This project requires a full Exploratory Data Analysis (EDA) of loan data from Lending Club.
+- **Background**: The objective is to search for patterns and variables that affect loan failures so that Lending Club can reduce credit losses and make smart lending decisions.
+-- **Business Problem**: Lending Club faces two major risks:
+  1. A loss of business due to not giving loans to qualified prospects.
+  2. The money that is lost when loans are provided to people who are likely to not pay them back.
+- **Dataset**: Historical loan data from 2007 to 2011, including loan amount, interest rate, term, grade, length of work, and outcome (e.g., fully paid, charged-off).
 
 
 ## Conclusions
-1. Approximately **14.5% of loans default**, with elevated rates among borrowers with 36-month periods and loan amounts ranging from 5,000 to 16,000.
-2. Borrowers displaying **DTI ratios ranging from 9 to 20**, yearly incomes between 37,000 and 75,000, or residing in rented or mortgaged properties are at an elevated risk of default.
-3. California (16%), Florida (18%), and New York (13%) exhibit the greatest default rates, requiring further examination.
-4. Loans classified as **B** exhibit the highest incidence of defaults. Defaults diminish from grades B to G, with grade G exhibiting the lowest defaults despite elevated interest rates.
-5. Borrowers seeking loans for purposes such as debt consolidation, credit card repayment, and small company ventures have elevated default rates, necessitating more rigorous assessments.
-6. Borrowers with interest rates between **10-16%** exhibit an increased probability of default.
+1. Approximately 14.5% of loans have not been paid back, and the rate is higher for individuals with 36-month terms and loan amounts between 5,000 and 16,000.
+2. People with **DTI ratios** between 9 and 20, yearly incomes between 37,000 and 75,000, or homes that are rented or mortgaged are more likely to not pay back their loans.
+3. The highest rates of failure are in California (16%), Florida (18%), and New York (13%), which needs more research.
+4. Loans with a grade of **B** have the highest rate of defaults. From grade B to grade G, defaults go down, with grade G having the lowest defaults even though interest rates are high.
+5. Individuals who want loans for items like paying off credit cards, consolidating debt, or starting a small business have higher rates of default, which means that lenders have to be more careful when evaluating these people.
+6. Individuals who borrow money with interest rates between 10% and 16% are more likely to not pay back their loans.
+
 
 
 ## Technologies Used
